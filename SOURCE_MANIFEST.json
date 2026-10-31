@@ -1,0 +1,625 @@
+{
+  "release": "firmware-2026.10.31",
+  "idf": "5.4.4",
+  "target": "esp32s3",
+  "board": "mag-ai-1688-mini",
+  "recompiled_for_release": false,
+  "hardware_tested": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 127,
+      "sha256": "138e290d4ca9586aab7a2274937314ee17e381bd0488e3d48b366d78dd0b74e6"
+    },
+    {
+      "path": "docs/assets/yangzimo-wechat.jpg",
+      "bytes": 143280,
+      "sha256": "fd3417875cbae75c50e8fc18acf84b02a1c17ffc6ee5187833e8e33b6ce2051b"
+    },
+    {
+      "path": "docs/BUILD.md",
+      "bytes": 2481,
+      "sha256": "b55bfcc9ef81de3f8ff8b95b3be3ea66a90d32032df30849744c26a9b8817e53"
+    },
+    {
+      "path": "docs/PROTOCOL.md",
+      "bytes": 1211,
+      "sha256": "de434621cde3e1a2ff7de17807aa9a1b5d5db0e9157074ba6ac9328bdf8eaee7"
+    },
+    {
+      "path": "docs/RELEASE.md",
+      "bytes": 2354,
+      "sha256": "73bb05f685f20059b481186fa16b70a43df0822c1c38346f787c699202a65f6f"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1085,
+      "sha256": "07a8dc58bf8568374c6e33792391a1781af769ab630e1efa93eaabbb9c51bf01"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3934,
+      "sha256": "c4347f22ee7a5b85efb6d34c365ff7fb4b59c8376208c4ad75116249402c7302"
+    },
+    {
+      "path": "xiaozhi-esp32/.gitignore",
+      "bytes": 134,
+      "sha256": "82f5cf1ba16ef14445ea29f8af82d9b33f04ba9980773da44cd9a0b497ba1efb"
+    },
+    {
+      "path": "xiaozhi-esp32/CMakeLists.txt",
+      "bytes": 1834,
+      "sha256": "af4925160b2a9b2f97cdac0b4e3a2dfbd9d993397925384f8390072e18cd9485"
+    },
+    {
+      "path": "xiaozhi-esp32/convert_audio_to_p3.py",
+      "bytes": 1374,
+      "sha256": "b31bf779579e29c82b1a3cd2eaac5bb85771d1269a08e7dc09769dd4bc6c056c"
+    },
+    {
+      "path": "xiaozhi-esp32/dependencies.lock",
+      "bytes": 4480,
+      "sha256": "fc53e19a2197445182e5b8f02d76641ba74709c80318b4bbb194b8cf9469722a"
+    },
+    {
+      "path": "xiaozhi-esp32/docs/wiring.jpg",
+      "bytes": 124026,
+      "sha256": "920f4b64364d6af620aa524fdbc675a71ebd85389cd612d737085604499dbb1e"
+    },
+    {
+      "path": "xiaozhi-esp32/docs/wiring2.jpg",
+      "bytes": 58797,
+      "sha256": "547ab95039ad8f46a82a4b37a98a61b38a6b493d88a351b4a9a07494e7123f43"
+    },
+    {
+      "path": "xiaozhi-esp32/flash.sh",
+      "bytes": 104,
+      "sha256": "05cb8d0095b2c13a225316e0c76e290062e59f3360792717d54150f1191ab190"
+    },
+    {
+      "path": "xiaozhi-esp32/LICENSE",
+      "bytes": 1085,
+      "sha256": "07a8dc58bf8568374c6e33792391a1781af769ab630e1efa93eaabbb9c51bf01"
+    },
+    {
+      "path": "xiaozhi-esp32/main/application.cc",
+      "bytes": 69770,
+      "sha256": "1302d14de3b9ad2d2815dba678d948bfe11d1ebb4f6982321c1a830753bf7de2"
+    },
+    {
+      "path": "xiaozhi-esp32/main/application.h",
+      "bytes": 8909,
+      "sha256": "eef9816c779f4be019d5d170910bf8c8e4c81d41fc553ec0947a261be70d561e"
+    },
+    {
+      "path": "xiaozhi-esp32/main/application_xiaozhi.cc",
+      "bytes": 22664,
+      "sha256": "f75ca033792f24b4a48caea9bd434216e059af9bf5d02966276ae5c711fc0b90"
+    },
+    {
+      "path": "xiaozhi-esp32/main/assets/err_pin.p3",
+      "bytes": 3128,
+      "sha256": "de2fbf3aef67d921ee0beedb531d8f2e736aca6a02065dc6605eeac50031d1fb"
+    },
+    {
+      "path": "xiaozhi-esp32/main/assets/err_reg.p3",
+      "bytes": 6707,
+      "sha256": "ce873bae714af6eb87c735e8a8410411c782bb3810230be511f0b45cd9541480"
+    },
+    {
+      "path": "xiaozhi-esp32/main/assets/err_wificonfig.p3",
+      "bytes": 3038,
+      "sha256": "620f8e5193c1e68002016b20b7efe35eb9441b05bc6adef3e91def3f1ce37242"
+    },
+    {
+      "path": "xiaozhi-esp32/main/assets/help.wav",
+      "bytes": 39084,
+      "sha256": "944a675864d3427aedfebb077eff49bf47ca5be840189cd6ce4e8dda4ed8051f"
+    },
+    {
+      "path": "xiaozhi-esp32/main/audio_codecs/audio_codec.cc",
+      "bytes": 2828,
+      "sha256": "5a9b148b84c97e2c9d19a53105e586616b3044f9d711f9a53e17ec7760cc5bac"
+    },
+    {
+      "path": "xiaozhi-esp32/main/audio_codecs/audio_codec.h",
+      "bytes": 2018,
+      "sha256": "28793842de67f07ad9a9baeddecc9b5bc4d4b8592201f7ba7371204adf6be9d9"
+    },
+    {
+      "path": "xiaozhi-esp32/main/audio_codecs/box_audio_codec.cc",
+      "bytes": 8348,
+      "sha256": "b39ef313bd0ff49d6fe9df9f7e52bf6302149c29dd48b96bd61bba1ea00a95af"
+    },
+    {
+      "path": "xiaozhi-esp32/main/audio_codecs/box_audio_codec.h",
+      "bytes": 1402,
+      "sha256": "2be5b44698b85fc8eb0b5ed89441ad745b183878dfb1cff09e00b771bb674d02"
+    },
+    {
+      "path": "xiaozhi-esp32/main/audio_codecs/es8311_audio_codec.cc",
+      "bytes": 6270,
+      "sha256": "dafa2630d2a405d1d0c1293a76294f59d4b5c923fee10d2ecfcec7eb749a36d6"
+    },
+    {
+      "path": "xiaozhi-esp32/main/audio_codecs/es8311_audio_codec.h",
+      "bytes": 1305,
+      "sha256": "6187cdb8883038176b4e9bf0a2a0c18d36a31df49c8fa9e622d26441f2a4da21"
+    },
+    {
+      "path": "xiaozhi-esp32/main/audio_codecs/no_audio_codec.cc",
+      "bytes": 8364,
+      "sha256": "f0e0bc5f519c6732f2319913f61f7040ead375ef7a105dabdb1ec2a15f5c32f6"
+    },
+    {
+      "path": "xiaozhi-esp32/main/audio_codecs/no_audio_codec.h",
+      "bytes": 930,
+      "sha256": "4c2ed90d0e4d5ee620713224354b866eced5e948fee94dbd71087b8b7993997a"
+    },
+    {
+      "path": "xiaozhi-esp32/main/audio_processing/audio_processor.cc",
+      "bytes": 3856,
+      "sha256": "244080a7a46cc7b57169ce7fe8d69f70ab382365f160f9e717058b7b025133a6"
+    },
+    {
+      "path": "xiaozhi-esp32/main/audio_processing/audio_processor.h",
+      "bytes": 895,
+      "sha256": "9f579a23c7fbbb720512bfefa2998878ee962dce7c4b61fa63f7f0ff4a2baf4b"
+    },
+    {
+      "path": "xiaozhi-esp32/main/audio_processing/wake_word_detect.cc",
+      "bytes": 7834,
+      "sha256": "402bb6cb41010439206c562c9b823c7082be804c0c5a3564ebb6ae292736a7c5"
+    },
+    {
+      "path": "xiaozhi-esp32/main/audio_processing/wake_word_detect.h",
+      "bytes": 1909,
+      "sha256": "cdbfcd7deb64460c514c4f6da01980ecb2d6d31ba63bc3701bbeb4dd9f0f58c5"
+    },
+    {
+      "path": "xiaozhi-esp32/main/background_task.cc",
+      "bytes": 2111,
+      "sha256": "835fbac9265943bf39a950fb96e54db76c3bbb953d41737e7de45cb21129fe0e"
+    },
+    {
+      "path": "xiaozhi-esp32/main/background_task.h",
+      "bytes": 789,
+      "sha256": "e2c0ee1ffba8cc0e4727b214268f49f4a97713e1a309f92bded57ba21db89615"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/bread-compact-ml307/compact_ml307_board.cc",
+      "bytes": 4371,
+      "sha256": "3cfdb53186ee04c3aa330778ecbdd9def5fd80833a70962003cd04dc3dd1e8b0"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/bread-compact-ml307/config.h",
+      "bytes": 1356,
+      "sha256": "b5c71c95a8f5660a934182d34d9e63bf13638b8742b78c9449bd6b18b958edd6"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/bread-compact-wifi/compact_wifi_board.cc",
+      "bytes": 4539,
+      "sha256": "37d744ec903c142e18a0779b4d077caa269496e04802709cfb0605148a920e4c"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/bread-compact-wifi/config.h",
+      "bytes": 1284,
+      "sha256": "d6fedfaf87decea4af2cd8efe3cba811473993d5443118a65e13c883e6827b0b"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/board.cc",
+      "bytes": 3905,
+      "sha256": "47d80b4094a9787b910a5314ba47061403b9b96e2973f26e22d714da24b6cdb1"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/board.h",
+      "bytes": 1489,
+      "sha256": "34ffc7783cc431e749bd831e9fce47226c1324b926264b74a188ac369dffa06e"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/button.cc",
+      "bytes": 2896,
+      "sha256": "984c6518f34e4c97c45b2e1b2c91aad01c3f6b64fddb6b19e69daaff568c727f"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/button.h",
+      "bytes": 805,
+      "sha256": "facfde98def9e467116f9314076a9a444af53b939343dd444ed45b8c2d0a9e86"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/i2c_device.cc",
+      "bytes": 895,
+      "sha256": "6d5bb9f305c44d39b4887e5f3a63dbe4a5d33678cc666bdba748da3ae12467aa"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/i2c_device.h",
+      "bytes": 342,
+      "sha256": "4bc8ba6869eb6aff12c981a3a723ac61a3b9f95e724fa6315f5df1be3ffc3bd0"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/led.cc",
+      "bytes": 2836,
+      "sha256": "651fadd11d8aee67f7d66f0ffa88831d63ecf8aa675fb56f3845b14cef4efd43"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/led.h",
+      "bytes": 1456,
+      "sha256": "733dd968713dea4c93302ed9c623b2279dbfc69c9f0b05657e05238471abac3f"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/ml307_board.cc",
+      "bytes": 4580,
+      "sha256": "72f49def98a14d1428728aa73d5d1154b1a39db7e31b96e47571ed22f7e73054"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/ml307_board.h",
+      "bytes": 845,
+      "sha256": "f793028aeefeaf6ead95520ee04d78bb65b5793fdc4a991bcde01a20017a2624"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/system_reset.cc",
+      "bytes": 2229,
+      "sha256": "fd4bf46f3375ff9b8bebf45c79ac358596b61890fd4e05752e050c2a279d3ff8"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/system_reset.h",
+      "bytes": 429,
+      "sha256": "c6e18bdac5e7992ff3ac6a8168946b6772cd53623c0f878ea4f961bb895a7f9e"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/wifi_board.cc",
+      "bytes": 5189,
+      "sha256": "3699a7643d602c992e76604d6ca6c5bc70f3a0c0a3e1113562c3661b6ef2686c"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/common/wifi_board.h",
+      "bytes": 749,
+      "sha256": "4eea0bc6bb7c640447d05c771c2fad4b33285972bc05d734f0c4521ddeea7b18"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/esp-box-3/config.h",
+      "bytes": 1114,
+      "sha256": "1b7cb23e980387c4688896acc403154ec069a0b6c338cf5a832c566e59907b27"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/esp-box-3/esp_box3_board.cc",
+      "bytes": 2411,
+      "sha256": "d9c52b681c3936666fad3b5546205884abe001c944368f2b7d3f18b7871bd862"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/kevin-box-1/config.h",
+      "bytes": 1143,
+      "sha256": "8c2d251059f4eff2d4406edbda02ff34f5fae4624e3b7ac21a686810bd580ded"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/kevin-box-1/kevin_box_board.cc",
+      "bytes": 5241,
+      "sha256": "c213b76372b80a850529693b59c7b6fab76ece1c832d1efbe49b01ba1857416a"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/kevin-box-2/axp2101.cc",
+      "bytes": 1954,
+      "sha256": "5bc3d1722bfa59f86496c07c9dbc2dc4d8a7f47ed1b6d4f5ac3d31af91dead6e"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/kevin-box-2/axp2101.h",
+      "bytes": 375,
+      "sha256": "d71a1ce78b9884cf1ea6ef8bb6f77bb6232de7b6c7e1d1131acacc60a93873e5"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/kevin-box-2/config.h",
+      "bytes": 1173,
+      "sha256": "78d9eeba6d94039033864747ba49b1540a3c0b616f69581e7aa69a0c8703e62c"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/kevin-box-2/kevin_box_board.cc",
+      "bytes": 7238,
+      "sha256": "39682d59da13a3538a89b571fea0233eeb0718845d3ed03a2c51418ea45816d8"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/kevin-c3/config.h",
+      "bytes": 685,
+      "sha256": "7a6c6f64d4a18798328d7904c1c7b9c1fb8a91fbb7bb78f3181f904c8c261531"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/kevin-c3/kevin_box_board.cc",
+      "bytes": 2491,
+      "sha256": "14714f9d81e67b7072de67012dec7910766cf32d35168ed34146f1feea07bf73"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/lichuang-dev/config.h",
+      "bytes": 1189,
+      "sha256": "0342fdea1f0783819d98f9458152bd78d4269457c529e1f8840c4ecdd2c94b99"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/lichuang-dev/lichuang_dev_board.cc",
+      "bytes": 5641,
+      "sha256": "acba29aa2a597ee6d691a7261854cf8d8e5b783500c00754044f66db5f626933"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/mag-ai-1688-mini/config.h",
+      "bytes": 2689,
+      "sha256": "a21fcad05a401163c50cbb1db5f648162eac05d87c048408d540e8fc8fd69fdf"
+    },
+    {
+      "path": "xiaozhi-esp32/main/boards/mag-ai-1688-mini/mag_ai_board.cc",
+      "bytes": 6342,
+      "sha256": "75174d65b022179e15ce92fa014491cbe914a3039dec8e866f6a84c351c36bc9"
+    },
+    {
+      "path": "xiaozhi-esp32/main/CMakeLists.txt",
+      "bytes": 3145,
+      "sha256": "d72f79ff97c57a201c5926f81df544eba0cc794bf76540044421e80019a27877"
+    },
+    {
+      "path": "xiaozhi-esp32/main/display/display.cc",
+      "bytes": 6749,
+      "sha256": "bb2048ea7faa47ecd1cabfbfae99f23a417d53af4bda94f28ff05256f2aabfc9"
+    },
+    {
+      "path": "xiaozhi-esp32/main/display/display.h",
+      "bytes": 1866,
+      "sha256": "d2dd85539c8030ceef1d33ca0042307beb164a202bc572f2b4f1a3e6257ef878"
+    },
+    {
+      "path": "xiaozhi-esp32/main/display/esp_lcd_nv3030b.c",
+      "bytes": 12511,
+      "sha256": "3fb9af506f4d5ea9ce0d0bea3e1e82e9453d7e4930ca1a44c9f75cd1d6bd7166"
+    },
+    {
+      "path": "xiaozhi-esp32/main/display/esp_lcd_nv3030b.h",
+      "bytes": 852,
+      "sha256": "62a0a2c1e617a2a45a73b1be492fb674aabf9487e8636513647235b7af338eaf"
+    },
+    {
+      "path": "xiaozhi-esp32/main/display/no_display.cc",
+      "bytes": 178,
+      "sha256": "38121b2b8109bda9212f3d4d590215242e936ef7c9513de3d179ee181b55be37"
+    },
+    {
+      "path": "xiaozhi-esp32/main/display/no_display.h",
+      "bytes": 272,
+      "sha256": "16b713a419b9caf2ff1fc034d7f0c69cb5468aeb22164b01507c5e69054607f4"
+    },
+    {
+      "path": "xiaozhi-esp32/main/display/nv3030b_display.cc",
+      "bytes": 14626,
+      "sha256": "058fe37ac5b0e47af3a911c798c1c9789bbc0cbbd77070bcba5e03ecbc01b4cd"
+    },
+    {
+      "path": "xiaozhi-esp32/main/display/nv3030b_display.h",
+      "bytes": 2492,
+      "sha256": "32fc509792fe722c5d9e185569fe96f07c3086d0b6a5e195b6bf73f947cad603"
+    },
+    {
+      "path": "xiaozhi-esp32/main/display/ssd1306_display.cc",
+      "bytes": 9218,
+      "sha256": "c7dbce28a787884b4c47ccc3bbe883d5c82b8cc60b6bad8e2001ad1ba2921a5b"
+    },
+    {
+      "path": "xiaozhi-esp32/main/display/ssd1306_display.h",
+      "bytes": 835,
+      "sha256": "0048b774e36a0375ae2d512087ec27a71ec77dc55d2dac4ea7903eed43ee7447"
+    },
+    {
+      "path": "xiaozhi-esp32/main/display/st7789_display.cc",
+      "bytes": 11733,
+      "sha256": "5ac1b2434678220f97f900f65bd40781cacc670c70df7ccef8b1940847b299de"
+    },
+    {
+      "path": "xiaozhi-esp32/main/display/st7789_display.h",
+      "bytes": 1459,
+      "sha256": "1f45f3e393f301c95e4973647f3db2eea82c73b26a852fe91d18cbbb22e45698"
+    },
+    {
+      "path": "xiaozhi-esp32/main/fonts/font_awesome_14_1.c",
+      "bytes": 22302,
+      "sha256": "a39dd2962ef1c9b10153dcf358bddab0456f229501e7d12000534fa1e99ef756"
+    },
+    {
+      "path": "xiaozhi-esp32/main/fonts/font_awesome_30_1.c",
+      "bytes": 54612,
+      "sha256": "b08d39863d406f604356172ed18a84c777b74ed98afdfca75099ed6cf2833f97"
+    },
+    {
+      "path": "xiaozhi-esp32/main/fonts/font_awesome_symbols.h",
+      "bytes": 3482,
+      "sha256": "be4c9aebd76b25d2717373e38eda08de00e0290f9b83c57bb0bda640bad8133d"
+    },
+    {
+      "path": "xiaozhi-esp32/main/fonts/font_puhui_14_1.c",
+      "bytes": 2027819,
+      "sha256": "9e41b2d3e9402928bc0c03225270d4632b4ddda7903fbfdf078db97fd70dcb81"
+    },
+    {
+      "path": "xiaozhi-esp32/main/fonts/GB2312.TXT",
+      "bytes": 187143,
+      "sha256": "a3a14736466658445879e73be8e894931a9b0eb4d2135272c145e8a654375796"
+    },
+    {
+      "path": "xiaozhi-esp32/main/idf_component.yml",
+      "bytes": 461,
+      "sha256": "b111b6b12a0ba348c7b4d9b8a9ccbdce155b1c9fb2d76af0d39e456ff59fcd93"
+    },
+    {
+      "path": "xiaozhi-esp32/main/iot/sample_interface.json",
+      "bytes": 1031,
+      "sha256": "3acd1aee99f03b772f9831217068169a64e02886db46c23ba078cfa28b0d07a9"
+    },
+    {
+      "path": "xiaozhi-esp32/main/iot/thing.cc",
+      "bytes": 2539,
+      "sha256": "9738fbb9821b8038f16dc687d8fe4ffc717823399edd1a5af6241ef75b353b48"
+    },
+    {
+      "path": "xiaozhi-esp32/main/iot/thing.h",
+      "bytes": 9807,
+      "sha256": "c6f1190ded2bb2e796091f361a75f4cbfc75098f3ff3bb48ddb201dac6abd66c"
+    },
+    {
+      "path": "xiaozhi-esp32/main/iot/thing_manager.cc",
+      "bytes": 1069,
+      "sha256": "270b6e3af7926a4895bd846048de17b993f0c1214a044771e59997a41b3fb5b0"
+    },
+    {
+      "path": "xiaozhi-esp32/main/iot/thing_manager.h",
+      "bytes": 769,
+      "sha256": "0da70de834f19f3c815e7301424cb3979b0a8446140352c15e5af9c3a18f8a6e"
+    },
+    {
+      "path": "xiaozhi-esp32/main/iot/things/lamp.cc",
+      "bytes": 1523,
+      "sha256": "352d214393997c12d5a7cd15ee280721589abc7eeec8dc3758ca01ffd0687546"
+    },
+    {
+      "path": "xiaozhi-esp32/main/iot/things/speaker.cc",
+      "bytes": 1062,
+      "sha256": "13f84d647d42eaea9d12aad0b3b3aa8f58634e0f2526c4ead16ba4e39df9b40f"
+    },
+    {
+      "path": "xiaozhi-esp32/main/Kconfig.projbuild",
+      "bytes": 1859,
+      "sha256": "71a609020d556a7a6d2f7ce470c81f537825a413a9665a4e9175dacb44201f26"
+    },
+    {
+      "path": "xiaozhi-esp32/main/main.cc",
+      "bytes": 1215,
+      "sha256": "62a94e506e24304d105241e869a23b17ae8bd030df1d75ea227ea586bef4db8a"
+    },
+    {
+      "path": "xiaozhi-esp32/main/ota.cc",
+      "bytes": 9260,
+      "sha256": "0269f769b6d9386c19c0b5e9bb55cfc09d8464f7475ccd367213e43c0deee18d"
+    },
+    {
+      "path": "xiaozhi-esp32/main/ota.h",
+      "bytes": 1361,
+      "sha256": "346cccd405ea4af93b29b9d72b9b429be809c8212294b3b1ca80e53d00edb8ab"
+    },
+    {
+      "path": "xiaozhi-esp32/main/protocols/mqtt_protocol.cc",
+      "bytes": 9978,
+      "sha256": "873def590b727de125a242f8d3493c1615f70fbcde530b4b2d4be70f8670107f"
+    },
+    {
+      "path": "xiaozhi-esp32/main/protocols/mqtt_protocol.h",
+      "bytes": 1469,
+      "sha256": "76a25a5518ab4e0551e2574ec901bc32c0d544188d4acb79a8c37d5e6b0dc9ac"
+    },
+    {
+      "path": "xiaozhi-esp32/main/protocols/protocol.cc",
+      "bytes": 2352,
+      "sha256": "bb9fd23f39e4ac4013783dd28a357adcd119564a2bbfa966ee04871a03b0d6a1"
+    },
+    {
+      "path": "xiaozhi-esp32/main/protocols/protocol.h",
+      "bytes": 2053,
+      "sha256": "e6e9fbfd34356ea30b111516f7c76e121f9803d62c938da11b209125822bc1b5"
+    },
+    {
+      "path": "xiaozhi-esp32/main/protocols/websocket_protocol.cc",
+      "bytes": 4735,
+      "sha256": "beefae79ff0051bffd01aab23a40954cf2c315e0f69b619c42abdc7cb50e2dd1"
+    },
+    {
+      "path": "xiaozhi-esp32/main/protocols/websocket_protocol.h",
+      "bytes": 759,
+      "sha256": "1c41dc29e54cc7b7148629953fc183dd3906a7b65f4b81ea973ad4098701be28"
+    },
+    {
+      "path": "xiaozhi-esp32/main/settings.cc",
+      "bytes": 2295,
+      "sha256": "0181e576c20d33b77c237ba8b308994761fe5e56372b834f2af71e757d6c9065"
+    },
+    {
+      "path": "xiaozhi-esp32/main/settings.h",
+      "bytes": 694,
+      "sha256": "0a6cf1d02d4bb9f4c867c544e0d29fbe4b4abaa03eb0b6afeae0139e456a86a8"
+    },
+    {
+      "path": "xiaozhi-esp32/main/system_info.cc",
+      "bytes": 4185,
+      "sha256": "3ac664c22b26cc86e1a429e11541423fb5ea19e8e3a589a58384673cf7469d95"
+    },
+    {
+      "path": "xiaozhi-esp32/main/system_info.h",
+      "bytes": 461,
+      "sha256": "863af382829dfa272d300e2b284e321a2b72c4ad3241937dd5d16d42aaf2b95d"
+    },
+    {
+      "path": "xiaozhi-esp32/partitions.csv",
+      "bytes": 419,
+      "sha256": "ef3676393d6dac6fa93a1923cfcde857cc5cb3afd7393fa831e1aeecce2b9422"
+    },
+    {
+      "path": "xiaozhi-esp32/partitions_4M.csv",
+      "bytes": 296,
+      "sha256": "bb0283089158ac6694830d68e45393aa412bb519ae03ccdd21e4ae022e90d58a"
+    },
+    {
+      "path": "xiaozhi-esp32/README.md",
+      "bytes": 2795,
+      "sha256": "20ec5512c4d238e6b67c5bf648089bcb379212ea0a5723b210999c24694e01a7"
+    },
+    {
+      "path": "xiaozhi-esp32/release.py",
+      "bytes": 1503,
+      "sha256": "0e1b5f58edee8055f71e488ed2954c0ae849898af9833b7fb05ce72c20134464"
+    },
+    {
+      "path": "xiaozhi-esp32/sdkconfig.defaults",
+      "bytes": 954,
+      "sha256": "6d07d9b91d9018f331dbc300a9e50ab5ef50ba46648308601061376e54b28e92"
+    },
+    {
+      "path": "xiaozhi-esp32/sdkconfig.defaults.esp32c3",
+      "bytes": 37,
+      "sha256": "4103ced7193f1fd8426c807fd32192055915c57430430de90964ec6db3334cf9"
+    },
+    {
+      "path": "xiaozhi-esp32/sdkconfig.defaults.esp32s3",
+      "bytes": 572,
+      "sha256": "277bf8da0fb0230d543e030b3823978d7b32f40429270e0032d0edf34edaafd9"
+    },
+    {
+      "path": "xiaozhi-esp32/sdkconfig.mag-ai-1688-mini",
+      "bytes": 86405,
+      "sha256": "103f79be10de30622037c5b8b94452cb4aca32844caf4b5210fa6f6ec68b6384"
+    },
+    {
+      "path": "xiaozhi-esp32/tools/gen_help_wav.js",
+      "bytes": 9433,
+      "sha256": "633ae69e80fbf46888fde6410dc05ac350962bd6323f5d0070e8f1fd05f7783d"
+    },
+    {
+      "path": "xiaozhi-esp32/tools/presets/help_chime.wav",
+      "bytes": 44204,
+      "sha256": "e5ee3346b6f877d73dcfbc5936c786fb6eed2b3615b152739105d87a8c82af50"
+    },
+    {
+      "path": "xiaozhi-esp32/tools/presets/help_harp.wav",
+      "bytes": 34924,
+      "sha256": "6d6fe161a6a53a474f0f8f94d8f3e2324c35ca13099c09110d535bf651618763"
+    },
+    {
+      "path": "xiaozhi-esp32/tools/presets/help_soft.wav",
+      "bytes": 46764,
+      "sha256": "bbf62d5d85523bbb08f7f281323e2bac914aed240d252795408b89abb4a2355f"
+    },
+    {
+      "path": "xiaozhi-esp32/tools/presets/help_tiny.wav",
+      "bytes": 25644,
+      "sha256": "eebc27dc718f979ebb51fef7a5a6c5e199fb5dfc052bdbbcbbffca27bcd52276"
+    },
+    {
+      "path": "xiaozhi-esp32/versions.py",
+      "bytes": 5779,
+      "sha256": "db0c194f27ce6827f7a66b43db3058f83cbad06201c3abd56d7d2387ffa66749"
+    },
+    {
+      "path": "xiaozhi-esp32/解忧树洞-构建说明.md",
+      "bytes": 20297,
+      "sha256": "ec12949a6472d813d3fc4e4c3d5c231fb2fd19de627edb853592081b7e7b8a83"
+    }
+  ]
+}
