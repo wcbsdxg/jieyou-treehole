@@ -12,6 +12,11 @@
       "sha256": "138e290d4ca9586aab7a2274937314ee17e381bd0488e3d48b366d78dd0b74e6"
     },
     {
+      "path": "docs/assets/project-poster.png",
+      "bytes": 1731251,
+      "sha256": "6227a3215cbc2486d60edf6e3466f9796b40c462dbe7b374bdaed62f7d0b0388"
+    },
+    {
       "path": "docs/assets/yangzimo-wechat.jpg",
       "bytes": 143280,
       "sha256": "fd3417875cbae75c50e8fc18acf84b02a1c17ffc6ee5187833e8e33b6ce2051b"
@@ -28,8 +33,8 @@
     },
     {
       "path": "docs/RELEASE.md",
-      "bytes": 2354,
-      "sha256": "73bb05f685f20059b481186fa16b70a43df0822c1c38346f787c699202a65f6f"
+      "bytes": 2369,
+      "sha256": "68a62bd34589dd511550e0da193b02e056b45180f78078cf4f9ebca52522263b"
     },
     {
       "path": "LICENSE",
@@ -38,8 +43,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3934,
-      "sha256": "c4347f22ee7a5b85efb6d34c365ff7fb4b59c8376208c4ad75116249402c7302"
+      "bytes": 4058,
+      "sha256": "8e018f544ff2a3105c762fc231e03a2c6fed8a295ff2f214b0859b62c0dddcc2"
     },
     {
       "path": "xiaozhi-esp32/.gitignore",
